@@ -179,6 +179,9 @@ class SuperLineBrowser(QMainWindow):
         register_superline_protocol()
         # محاكاة لفتح نافذة إدارية في الجهاز
         os.system("msg * تم تفعيل متصفح Chrome Super Line كمتصفح سيادي في نظامك بنجاح.")
+        pip install pyinstaller
+pyinstaller --noconsole --onefile --icon=your_logo.ico super_line.py
+
 
 # --- 4. تشغيل النظام المتكامل ---
 if __name__ == "__main__":
